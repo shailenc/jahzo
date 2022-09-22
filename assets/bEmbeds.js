@@ -156,8 +156,7 @@ class bEmbed
 			new MessageEmbed()
 				.setColor(match.winner == "2" ? this.col.yellow : this.col.dark)
 				.setDescription(filler + "\n" + t2mentions)
-				.setThumbnail(match.winner == "2" ? pic.win : pic.loss)
-				;
+				.setThumbnail(match.winner == "2" ? pic.win : pic.loss);
 
 		// return embed with winning team on top of loser in bot's gamelog message
 		// for the aesthetic
